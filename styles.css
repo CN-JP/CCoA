@@ -1,0 +1,177 @@
+body {
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+/* .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+.menu-icon {
+  width: 25px;
+  cursor: pointer;
+  display: none;
+} */
+
+.banner-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/istockphoto-altar.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  position: relative;
+
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 25%;
+  font-weight: bold;
+}
+
+.banner-text00 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 25%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+
+/* .container-fluid {
+  padding: 7% 5%;
+} */
+
+.rosary-mission {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  transition: 1s;
+}
+
+.rosary-mission:hover {
+  width: 250px;
+  height: 250px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+.mass-times, .testimonial {
+  padding: 7% 5%;
+  margin: 0;
+  background-color: #E9D5DA;
+  text-align: center;
+}
+
+.mission-text, .masstime-text {
+  font-weight: bold;
+}
+
+.explore {
+  padding: 7% 5%;
+  text-align: center;
+}
+
+.explore-box, .masstime-box {
+  margin-bottom: 3%;
+}
+
+.explore-img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 2.5%;
+}
+
+.testimonial {
+  text-align: center;
+}
+
+.testimonial-text {
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.footer-1 {
+  line-height: 1.5;
+  margin-bottom: 5%;
+}
+
+.footer-2 {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #827397;
+}
+
+.footer-copyrt {
+  font-size: 15px;
+}
+
+.cnjp {
+  font-family: 'Dancing Script', cursive;
+  font-size: 15px;
+}
+
+a:link, .cnjp a {
+  text-decoration: none;
+}
